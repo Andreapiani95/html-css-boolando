@@ -23,6 +23,11 @@ RESET
     position: fixed;
 }
 
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+}
 
 /*
 
@@ -34,11 +39,22 @@ HEADER
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 2400px;
 }
 
 .column-1{
     text-align: center;
-    width: calc(100%/3);
+    width: calc( 100%/3 );
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.column-1>img{
+    object-fit: contain;
+    max-height: 40px;
+    max-width: 400px;    
 }
 
 .flex-3{
@@ -76,14 +92,11 @@ DEBUG
 
 */
 
-.debug header{
-    background-color: orange;
-    height: 100px;
-}
 
 .debug .flex-1{
-    height: 100px;
-    background-color: orange;
+    height: 70px;
+    background-color: #FF6900;
+    border-bottom: outset;
 }
 
 .debug footer,
@@ -94,7 +107,7 @@ DEBUG
 }
 
 .debug main{
-    background-color: green;
+    background-color: white;
     height: 1000px;
 }
 
