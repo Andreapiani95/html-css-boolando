@@ -9,3 +9,102 @@ RESET
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 1200px;
+    margin: 0% auto;
+}
+
+.my-row{
+    display:flex
+}
+
+.fixed{
+    position: fixed;
+}
+
+
+/*
+
+HEADER
+
+*/
+
+.flex-1{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-1{
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.flex-3{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-3{
+    width: calc(100%/3 - 50px);
+}
+
+
+
+/*
+
+FOOTER
+    
+*/
+
+.flex-2{
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.column-2{
+    text-align: center;
+    width: calc(100%/3);
+}
+
+/*
+
+DEBUG
+
+*/
+
+.debug header{
+    background-color: orange;
+    height: 100px;
+}
+
+.debug .flex-1{
+    height: 100px;
+    background-color: orange;
+}
+
+.debug footer,
+.debug .flex-2{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.debug main{
+    background-color: green;
+    height: 1000px;
+}
+
+.debug .flex-3{
+    background-color: blueviolet;
+    height: 800px;
+}
+
+.debug .column-3{
+    background-color: darkred;
+    height: 300px;
+}
+
