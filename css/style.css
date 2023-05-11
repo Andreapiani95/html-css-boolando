@@ -27,6 +27,16 @@ a{
     text-decoration: none;
     text-decoration-style: none;
     color: white;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+h2{
+    font-size: 0.9em;
 }
 
 /*
@@ -47,8 +57,9 @@ HEADER
     text-align: center;
     width: calc( 100%/3 );
     color: white;
-    font-size: 1em;
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .column-1>img{
@@ -56,6 +67,13 @@ HEADER
     max-height: 40px;
     max-width: 400px;    
 }
+
+/*
+
+MAIN
+
+*/
+
 
 .flex-3{
     flex-flow: row wrap;
@@ -79,11 +97,30 @@ FOOTER
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    align-content: space-around;
 }
 
 .column-2{
-    text-align: center;
-    width: calc(100%/3);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.right>h2{
+    padding-right: 2%;
+    padding-bottom: 5px;
+}
+
+.right>a{
+    padding-left: 1%;
 }
 
 /*
@@ -103,7 +140,7 @@ DEBUG
 .debug .flex-2{
     background-color: black;
     color: white;
-    height: 200px;
+    
 }
 
 .debug main{
