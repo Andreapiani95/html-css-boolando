@@ -63,6 +63,11 @@ img{
     font-weight: normal;
 }
 
+.fixed{
+    position: fixed;
+    z-index: 99;
+}
+
 /*
 
 HEADER
